@@ -1,177 +1,48 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	padding: 0px;
-	margin: 0px;
-	background-color: #ecf0f1;
-}
-.photothumb {
-	float: left;
-	height: 200px;
-	width: 300px;
-	position: relative;
-	margin-left: 15px;
-	margin-bottom: 15px;
-	top: -240px;
-	overflow: hidden;
-	
--webkit-box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.45);
--moz-box-shadow:    0px 2px 30px rgba(0, 0, 0, 0.45);
-box-shadow:         0px 2px 30px rgba(0, 0, 0, 0.45);
-}
-
-#portfolio p {
-	position: absolute;
-	top: 458px;
-
+html {
+	background: url(../Assets/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 
-.header {
-	width: 100%;
-	height: 500px;
-	background-color: #bdc3c7;
-	background-image: url(../Assets/DSC_0129.webp);
-}
-.header h1 {
-	font-family: 'Rokkitt', serif;
-	font-smooth: always;
-	-webkit-font-smoothing: antialiased;
-	color: #FFF;
+h1{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 50px;
-	top: 420px;
-	position: absolute;
-	font-weight: 600;
-	left: 5px;
-}
-#navbar {
-	width: 100%;
-	height: 40px;
-	background-color: #1a1a1a;
-	-webkit-box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-	-moz-box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-	box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
+	color: #eeeeee;
+	margin-bottom: 10px;
 }
 
-.navitem {
-	height: 40px;
-	width: 120px;
-	float: left;
-	top: 0px;
-	position: relative;
-	font-weight: 300;
-	vertical-align: middle;
-	text-align: center;
-	padding: 0px;
-}
-.navitem:hover {
-	background-color: #222222;
-	color: #FFF;
-	border-bottom-width: 3px;
-	border-bottom-style: solid;
-	border-bottom-color: rgba(230, 126, 34,0.8);
-	height: 37px;
-}
-#navbar .navitem a {
-	text-decoration: none;
-	font-family: 'Paytone One', sans-serif;
-	color: #CCCCCC;
-	font-size: 20px;
+.box {
+margin-left: auto;
+margin-right: auto;
+margin-top: 20%;
+min-height: 300px;
+height: auto;
+max-width: 450px;
+background-color: rgba(44, 44, 44, 0.3);
+border-style: solid;
+border-width: 7px;
+border-color: rgba(0, 0, 0, 0.5)
 }
 
-.box300 {
-	height: 300px;
-	width: 100%;
-	z-index: -1;
-	position: absolute;
-	float: left;
-	-webkit-box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-	-moz-box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-	box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-}
-.box600 {
-	height: 600px;
-	width: 100%;
-	z-index: -1;
-	position: absolute;
-	float: left;
-	-webkit-box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-	-moz-box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-	box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.98);
-}
-.box600 h1{
-top: 420px;	
-}
-#aboutme {
-	background-color: rgba(52, 73, 94,1.0);
-}
-#aboutme h1{
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(127, 140, 141,0.3);
-	font-weight: 700;
-	font-size: 100px;
-	position: relative;
-	top: 120px;
+.container{
+width: 100%;
+margin-top:10%;
+text-align: center;
+overflow: auto;
+
 }
 
-#contact {
-	background-color: rgba(243, 156, 18,1.0);
-	top: 840px;
-}
-#contact h1{
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(236, 240, 241,0.3);
-	font-weight: 700;
-	font-size: 100px;
-	position: relative;
-	top: 120px;
-}
-#portfolio {
-	background-color: rgba(39, 174, 96,1.0);
-	top: 1140px;
-}
-#portfolio h1{
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(236, 240, 241,0.3);
-	font-weight: 700;
-	font-size: 100px;
-	position: relative;
+.social{
+margin: 0 auto;
+width: 60%;
 }
 
-#footer {
-	background-color: rgba(149, 165, 166,1.0);
-	top: 1740px;
-	position: absolute;
-}
-a {
-	color: rgba(192, 57, 43,1.0);
-	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
-}
-#footer h1 {
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(236, 240, 241,0.3);
-	font-weight: 600;
-	font-size: 50px;
-	position: relative;
-	top: 118px;
-	left: 8px;
-}
-p {
-	top: -185px;
-	left: 20px;
-	color: #FFF;
-	font-family: 'Open Sans', sans-serif;
-	position: relative;
-	clear: left;
-}
-#footer p {
-	top: 75px;
-	left: 10px;
-}
-#statcounter {
-	position: absolute;
-	top: 275px;
-	left: 10px;
+.social img{
+float: middle;
 }
