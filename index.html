@@ -1,121 +1,22 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Martin Dunaiski</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Paytone+One|Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script type="text/javascript" src="jquery.sticky.js"></script>
-  <script>
-    $(window).load(function(){
-      $("#navbar").sticky({ topSpacing: 0 });
-    });
-  </script>
-  
-
-</head>
-<body>
-<div id="top"></div>
-<div class="header"><h1>Martin Dunaiski </h1>
-</div>
-<div id="navbar"> 
-
-<div class="navitem"><a href="#aboutme"> About me </a> </div>
-<div class="navitem"><a href="#contact"> Contact </a> </div>
-<div class="navitem"><a href="#portfolio"> Portfolio</a> </div>
-<div class="navitem"><a href="#top"> Top </a> </div>
-
-</div>
-
-<div class="box300" id="aboutme"> 
-<h1> ABOUT ME </h1>
-
-<p>
-<strong>I am Martin</strong>,<br>
-also known as Madin.<br>
-I like to take photos and make websites. </p>
-</div>
-
-<div class="box300" id="contact"> 
-<h1> CONTACT </h1>
-
-
-<p>
-  <strong> Email </strong> <a href="mailto:mkdunaiski@gmail.com">mkdunaiski@gmail.com</a>
-  <br>
-<a href="https://twitter.com/mdunaiski" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @mdunaiski</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-</p>
-</div>
-
-<div class="box600" id="portfolio"> 
-<h1> PORTFOLIO </h1>
-<div class="photothumb"> <img src="Assets/photos/DSC_0549.jpg" width="477" height="317"> </div>
-<div class="photothumb"> <img src="Assets/photos/DSC_0820.jpg" width="343" height="228"> </div>
-<div class="photothumb"> <img src="Assets/photos/6.jpg" width="338" height="226"></div>
-<div class="photothumb"> <img src="Assets/photos/DSC_0270.jpg" width="309" height="205"> </div>
-<div class="photothumb"> <img src="Assets/photos/DSC_0576.jpg" width="343" height="228"> </div>
-<div class="photothumb"> <img src="Assets/photos/DSC_0830.jpg" width="309" height="205"></div>
-<div class="photothumb"> <img src="Assets/photos/2013-09-14 17.33.31-1.jpg" width="367" height="207"></div>
-<p> Just a few of my favorite <strong>photos</strong> I've taken over the past few years. </p>
-</div>
-
-<div class="box300" id="footer">
-<h1> FOOTER </h1>
-<p> Martin Dunaiski 2013&copy;
-<br><strong>Friends that also have websites: </strong>
-<br>
-<a href="http://www.jackgerrits.com">www.jackgerrits.com</a> </p>
-
-<div id="statcounter"> 
-<!-- Start of StatCounter Code for Dreamweaver -->
-<script type="text/javascript">
-var sc_project=9252042; 
-var sc_invisible=0; 
-var sc_security="818be48d"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="website
-statistics" href="http://statcounter.com/free-web-stats/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/9252042/0/818be48d/0/"
-alt="website statistics"></a></div></noscript>
-<!-- End of StatCounter Code for Dreamweaver -->
-</div>
-
-</div>
-
-<script>
-$(document).ready(function() {
-
-    // Click event for any anchor tag that's href starts with #
-    $('a[href^="#"]').click(function(event) {
-
-        // The id of the section we want to go to.
-        var id = $(this).attr("href");
-
-        // An offset to push the content down from the top.
-        var offset = 30;
-
-        // Our scroll target : the top position of the
-        // section that has the id referenced by our href.
-        var target = $(id).offset().top - offset;
-
-        // The magic...smooth scrollin' goodness.
-        $('html, body').animate({scrollTop:target}, 400);
-
-        //prevent the page from jumping down to our section.
-        event.preventDefault();
-    });
-});
-</script>
-<script src="//www.gmodules.com/ig/ifr?url=http://ws.audioscrobbler.com/1.0/user/mdunaiski/recenttracks.rss&amp;synd=open&amp;w=320&amp;h=200&amp;title=&amp;border=%23ffffff%7C0px%2C1px+solid+%23004488%7C0px%2C1px+solid+%23005599%7C0px%2C1px+solid+%230077BB%7C0px%2C1px+solid+%230088CC&amp;output=js"></script>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Martin Dunaiski</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="box"> 
+			<div class="container">
+				<h1> Martin Dunaiski </h1>
+				<div class="social"> 
+					<a href="#"><img src="Assets/social/email.png" width="64px"></a>
+					<a href="https://twitter.com/mdunaiski"><img src="Assets/social/twitter.png" width="64px"></a>
+					<a href="https://500px.com/mdunaiski"><img src="Assets/social/500px.png" width="64px"></a>
+					<a href="https://github.com/mdunaiski"><img src="Assets/social/github.png" width="64px"></a>
+				</div>
+			<div>
+		</div>
+	</body>
 </html>
