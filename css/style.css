@@ -19,7 +19,7 @@ h1{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 50px;
 	color: #eeeeee;
-	margin-bottom: 10px;
+	line-height: 45px;
 }
 
 p{
@@ -27,8 +27,8 @@ p{
 	font-size: 10px;
 	font-weight: 700;
 	color: rgba(221, 221, 221, 0.7);
-	margin-top: -24px;
-	margin-bottom: 30px;
+	margin-top: -34px;
+	margin-bottom: 35px
 
 }
 
