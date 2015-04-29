@@ -33,7 +33,7 @@ background-color: #ddd;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-iteration-count: 1;
-  -webkit-animation-delay: 0.8s;
+  -webkit-animation-delay: 2s;
 }
 
 .background-image.visible {
