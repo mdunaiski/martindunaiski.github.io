@@ -11,6 +11,11 @@ background-color: #ddd;
   100% { opacity: 1; }
 }
 
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .background-image {
   background: url(../Assets/bg.jpg) no-repeat center center fixed;
   
@@ -34,6 +39,12 @@ background-color: #ddd;
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-delay: 2s;
+  
+  -moz-animation-name: fade-in;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-delay: 2s;
 }
 
 .background-image.visible {
