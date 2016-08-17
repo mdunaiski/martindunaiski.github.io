@@ -6,11 +6,11 @@ min-height: 100%;
 background-color: #ddd;
 }
 
-@-webkit-keyframes fade-in {
+/*@-webkit-keyframes fade-in {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
-
+*/
 #contain{
 position: absolute;
 top: 50%;
@@ -34,7 +34,7 @@ width: 100%;
   left: 0;
   
   z-index: -1;
-  
+  /*
   opacity: 0;
   
   -webkit-animation-name: fade-in;
@@ -42,12 +42,13 @@ width: 100%;
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-delay: 1s;
+  */
 }
-
+/*
 .background-image.visible {
   opacity: 1;
 }
-
+*/
 
 h1{
 	font-family: 'Open Sans', sans-serif;
