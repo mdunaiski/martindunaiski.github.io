@@ -20,7 +20,7 @@ width: 100%;
 }
 
 .background-image {
-  background: url(../Assets/bg.png) no-repeat center center fixed;
+  background: url(../Assets/bg.jpg) no-repeat center center fixed;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
